@@ -1,0 +1,19 @@
+name: Production deployment
+
+on: 
+  push:
+    branches:
+      - main
+
+env:
+  AZURE_RESOURCE_GROUP: github-firstcd-with-actions-rg
+  AZURE_APP_PLAN: ghactions-ttt-deployment
+  AZURE_LOCATION: '"West Europe"'
+  #################################################
+  ### USER PROVIDED VALUES ARE REQUIRED BELOW   ###
+  #################################################
+  #################################################
+  ### REPLACE USERNAME WITH GH USERNAME         ###
+  AZURE_WEBAPP_NAME: fesecagm-ttt-app
+  #################################################
+
