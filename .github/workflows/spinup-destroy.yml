@@ -6,7 +6,7 @@ on:
 
 env:
   PACKAGES_TOKEN: ${{secrets.PACKAGES_TOKEN}}
-  AZURE_RESOURCE_GROUP: cd-with-actions
+  AZURE_RESOURCE_GROUP: github-firstcd-with-actions-rg
   AZURE_APP_PLAN: ghactions-ttt-deployment
   AZURE_LOCATION: '"West Europe"'
   #################################################
